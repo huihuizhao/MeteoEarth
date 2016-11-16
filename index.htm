@@ -115,10 +115,7 @@
             <nav class="navbar-left open">
 
                 <div class="search-container desktop poi_search_left">
-                    <input class="poi_search_text search" type="text" ng-model='poiSearchText' ng-init="poiSearchText=''" ng-focus='showPOISearchResults=true' ng-keyup="$event.keyCode == 13 && searchPOI(poiSearchText)">
-                    <div class="poiSearchSpinner" us-spinner="{color: '#FFF', lines: 11, length: 4, width: 2, radius: 3}" spinner-key="poiSearchSpinner"></div>
-                    <div class="gps" ng-click="locateMe()" title="Locate me"></div>
-                    <div class="locateMeSpinner" us-spinner="{color: '#FFF', lines: 11, length: 4, width: 2, radius: 3}" spinner-key="locateMeSpinner"></div>
+                    <img src="img/title.png" width="360" height="60">
                 </div>
 
                 <!-- Search Results Desktop -->
@@ -162,43 +159,43 @@
                     <li id="layer0" ng-class="layerButtonClass[0]">
                         <a ng-click="toggleLayer(0)">
                             <div class="layerLogo temp"></div>
-                            <div class="layerName"><span class="desc">{{"layer_Temperature" | translate}}</span></div>
+                            <div class="layerName"><span class="desc">{{"航次信息信息" | translate}}</span></div>
                         </a>
                     </li>
                     <li id="layer1" ng-class="layerButtonClass[1]">
                         <a ng-click="toggleLayer(1)">
                             <div class="layerLogo rain"></div>
-                            <div class="layerName"><span class="desc">{{"layer_Precipitation" | translate}}</span></div>
+                            <div class="layerName"><span class="desc">{{"站点信息展示" | translate}}</span></div>
                         </a>
                     </li>
                     <li id="layer3" ng-class="layerButtonClass[3]">
                         <a ng-click="toggleLayer(3)">
                             <div class="layerLogo cloud"></div>
-                            <div class="layerName"><span class="desc">{{"layer_CloudCover" | translate}}</span></div>
+                            <div class="layerName"><span class="desc">{{"剖面信息展示" | translate}}</span></div>
                         </a>
                     </li>
                     <li id="layer2" ng-class="layerButtonClass[2]">
                         <a ng-click="toggleLayer(2)">
                             <div class="layerLogo wind"></div>
-                            <div class="layerName"><span class="desc">{{"layer_Wind" | translate}}</span></div>
+                            <div class="layerName"><span class="desc">{{"海底地形渲染" | translate}}</span></div>
                         </a>
                     </li>
                     <li id="layer5" ng-class="layerButtonClass[5]">
                         <a ng-click="toggleLayer(5)">
                             <div class="layerLogo storm"></div>
-                            <div class="layerName"><span class="desc">{{"layer_TropicalStorm" | translate}}</span></div>
+                            <div class="layerName"><span class="desc">{{"洋流风场模拟" | translate}}</span></div>
                         </a>
                     </li>
                     <li id="layer4" class="pressure" ng-class="layerButtonClass[4]">
                         <a ng-click="toggleLayer(4)">
                             <div class="layerLogo pressure"></div>
-                            <div class="layerName"><span class="desc">{{"layer_Isobars" | translate}}</span></div>
+                            <div class="layerName"><span class="desc">{{"数据管理" | translate}}</span></div>
                         </a>
                     </li>
                     <li id="layer32" ng-class="layerButtonClass[32]">
                         <a ng-click="toggleLayer(32)">
                             <div class="layerLogo social"></div>
-                            <div class="layerName"><span class="desc">{{"layer_Social" | translate}}</span></div>
+                            <div class="layerName"><span class="desc">{{"用户管理" | translate}}</span></div>
                         </a>
                     </li>
                     <li id="layer33" ng-class="layerButtonClass[33]">
@@ -571,13 +568,13 @@
         <script type="text/javascript" src="me.com.js"></script>
 
         <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-23380297-1', 'auto');
-          ga('send', 'pageview');
+//          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+//          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+//          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+//          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+//
+//          ga('create', 'UA-23380297-1', 'auto');
+//          ga('send', 'pageview');
         </script>
     </body>
 </html>
