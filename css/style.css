@@ -427,14 +427,14 @@ body main .search-container {
   position: absolute;
 }
 body main .search-container .gps {
-  width: 19px;
-  height: 19px;
+  width: 100px;
+  height: 60px;
   position: absolute;
   right: 8px;
   top: 7px;
   cursor: pointer;
-  background-image: url('../img/atlas.png');
-  background-position: left -3464px;
+  background-image: url('..///img/title.png');
+
 }
 body main .search-container.desktop {
   left: 270px;
