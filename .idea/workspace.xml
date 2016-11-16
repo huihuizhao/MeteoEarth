@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d107c64c-bf1e-4b01-9478-22bc20671085" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/favicon.ico" afterPath="$PROJECT_DIR$/img/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/me_logo.png" afterPath="$PROJECT_DIR$/img/me_logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.htm" afterPath="$PROJECT_DIR$/index.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/me.com.js" afterPath="$PROJECT_DIR$/me.com.js" />
     </list>
     <ignored path="www.meteoearth.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +27,8 @@
       <file leaf-file-name="index.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="6.709625">
-              <caret line="576" column="35" selection-start-line="570" selection-start-column="11" selection-end-line="576" selection-end-column="35" />
+            <state vertical-scroll-proportion="10.141975">
+              <caret line="360" column="48" selection-start-line="360" selection-start-column="48" selection-end-line="360" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -40,9 +38,16 @@
         <entry file="file://$PROJECT_DIR$/me.com.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="1188" selection-start-line="1" selection-start-column="1188" selection-end-line="1" selection-end-column="1188" />
+              <caret line="2271" column="28" selection-start-line="2271" selection-start-column="28" selection-end-line="2271" selection-end-column="28" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <marker date="1479284530474" expanded="true" signature="106123:106141" placeholder="..." />
+                <marker date="1479284530474" expanded="true" signature="106510:106528" placeholder="..." />
+                <marker date="1479284530474" expanded="true" signature="107310:107366" placeholder="..." />
+                <marker date="1479284530474" expanded="true" signature="108312:108354" placeholder="..." />
+                <marker date="1479284530474" expanded="true" signature="341431:341542" placeholder="..." />
+                <marker date="1479284530474" expanded="true" signature="341630:342001" placeholder="{...}" />
+                <marker date="1479284530474" expanded="true" signature="341699:342001" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -51,8 +56,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.282353">
-              <caret line="1246" column="1" selection-start-line="1246" selection-start-column="1" selection-end-line="1246" selection-end-column="1" />
+            <state vertical-scroll-proportion="-2.4">
+              <caret line="576" column="78" selection-start-line="576" selection-start-column="74" selection-end-line="576" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -68,6 +73,7 @@
       <list>
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.htm" />
+        <option value="$PROJECT_DIR$/me.com.js" />
       </list>
     </option>
   </component>
@@ -124,20 +130,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MeteoEarth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.meteoearth.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeteoEarth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -224,13 +216,23 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24904943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17469051" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -242,7 +244,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -268,6 +269,13 @@
           <caret line="1" column="1188" selection-start-line="1" selection-start-column="1188" selection-end-line="1" selection-end-column="1188" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <marker date="1479284530474" expanded="true" signature="106123:106141" placeholder="..." />
+            <marker date="1479284530474" expanded="true" signature="106510:106528" placeholder="..." />
+            <marker date="1479284530474" expanded="true" signature="107310:107366" placeholder="..." />
+            <marker date="1479284530474" expanded="true" signature="108312:108354" placeholder="..." />
+            <marker date="1479284530474" expanded="true" signature="341431:341542" placeholder="..." />
+            <marker date="1479284530474" expanded="true" signature="341630:342001" placeholder="{...}" />
+            <marker date="1479284530474" expanded="true" signature="341699:342001" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -280,28 +288,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/me.com.js">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="1188" selection-start-line="1" selection-start-column="1188" selection-end-line="1" selection-end-column="1188" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-2.4">
+          <caret line="576" column="78" selection-start-line="576" selection-start-column="74" selection-end-line="576" selection-end-column="78" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/me.com.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.282353">
-          <caret line="1246" column="1" selection-start-line="1246" selection-start-column="1" selection-end-line="1246" selection-end-column="1" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2271" column="28" selection-start-line="2271" selection-start-column="28" selection-end-line="2271" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1479284530474" expanded="true" signature="106123:106141" placeholder="..." />
+            <marker date="1479284530474" expanded="true" signature="106510:106528" placeholder="..." />
+            <marker date="1479284530474" expanded="true" signature="107310:107366" placeholder="..." />
+            <marker date="1479284530474" expanded="true" signature="108312:108354" placeholder="..." />
+            <marker date="1479284530474" expanded="true" signature="341431:341542" placeholder="..." />
+            <marker date="1479284530474" expanded="true" signature="341630:342001" placeholder="{...}" />
+            <marker date="1479284530474" expanded="true" signature="341699:342001" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.709625">
-          <caret line="576" column="35" selection-start-line="570" selection-start-column="11" selection-end-line="576" selection-end-column="35" />
+        <state vertical-scroll-proportion="10.141975">
+          <caret line="360" column="48" selection-start-line="360" selection-start-column="48" selection-end-line="360" selection-end-column="48" />
           <folding />
         </state>
       </provider>

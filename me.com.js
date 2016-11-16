@@ -1672,7 +1672,7 @@ var me_createView = function(meConfig) {
 	    });
 
 		/* Social Like */
-		var facebookCountUrl = "http://graph.facebook.com/?id=http://www.facebook.com/meteoearth&callback=JSON_CALLBACK";
+		var facebookCountUrl = "";
 		$http.jsonp(facebookCountUrl)
 		.success(function(data){
 			$scope.fbLikes = data.likes;
@@ -2257,18 +2257,18 @@ function init() {
 		var currentUrl = encodeURIComponent(window.location.href);
 
 		switch (thisClass) {
-		    case "facebook":
-	    		window.open("http://facebook.com/share.php?u=" + currentUrl);
-		        break;
-		    case "twitter":
-	    		window.open("https://twitter.com/intent/tweet?url=" + currentUrl + "&text=" + encodeURIComponent("Check this out!"));
-		        break;
-		    case "gplus":
-	    		window.open("https://plus.google.com/share?url=" + currentUrl);
-		        break;
-		    case "mail":
-		    	window.open("mailto:?subject=" + encodeURIComponent("I wanted you to see this") + "&amp;body=" + encodeURIComponent("Check out this site ") + currentUrl + ".");
-		        break;
+		    //case "facebook":
+	    	//	window.open("http://facebook.com/share.php?u=" + currentUrl);
+		    //    break;
+		    //case "twitter":
+	    	//	window.open("https://twitter.com/intent/tweet?url=" + currentUrl + "&text=" + encodeURIComponent("Check this out!"));
+		    //    break;
+		    //case "gplus":
+	    	//	window.open("https://plus.google.com/share?url=" + currentUrl);
+		    //    break;
+		    //case "mail":
+		    //	window.open("mailto:?subject=" + encodeURIComponent("I wanted you to see this") + "&amp;body=" + encodeURIComponent("Check out this site ") + currentUrl + ".");
+		    //    break;
 		    case "whatsapp":
 		    	window.open("whatsapp://send?text=" + encodeURIComponent("Hey, check this out: " + currentUrl));
 		        break;
